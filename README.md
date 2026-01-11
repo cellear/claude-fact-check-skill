@@ -13,6 +13,20 @@ This skill provides a structured framework for fact-checking social media posts 
 - **Evaluating** ideological alignment of sources
 - **Reporting** findings in a clear, actionable format
 
+## 💡 Why This Matters for AI Development
+
+This project demonstrates several key competencies in AI development and prompt engineering:
+
+**Structured Prompt Engineering**: Shows how to design multi-step AI workflows with clear checkpoints, validation steps, and error handling. The methodology breaks down a complex task (fact-checking) into discrete, manageable steps that AI can execute consistently.
+
+**Multi-Step AI Workflows**: Demonstrates orchestrating AI through a complex process—claim identification → triage → evidence gathering → source analysis → fallacy detection → reporting—where each step builds on previous outputs.
+
+**Documentation Best Practices**: Provides multiple user paths (Claude Skills, copy-paste prompts, manual methodology) showing how to make AI tools accessible to different user segments with varying technical capabilities and subscription levels.
+
+**AI Safety & Limitations**: Explicitly addresses AI limitations, potential failures, and the need for human oversight—critical for production AI applications.
+
+**Real-World Application**: Tackles a genuine problem (misinformation) with practical constraints (paywalls, temporal limitations, unfalsifiable claims) rather than theoretical/toy examples.
+
 ## 🚀 How to Use
 
 ### Option 1: Claude Skills (Recommended - Requires Claude Pro)
@@ -141,12 +155,26 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🎓 Use Cases
 
+**Personal & Social:**
 - Verifying viral claims before sharing
 - Understanding if news stories have independent confirmation
-- Identifying manipulative rhetoric in political posts
 - Evaluating the credibility of health/science claims
+
+**Professional Applications:**
+- **Content Moderation:** Platforms evaluating user-generated content for misinformation
+- **Journalism:** News organizations fact-checking claims in real-time
+- **Research:** Academic researchers analyzing information spread patterns
+- **AI Safety:** Organizations building safety layers for AI-generated content
+
+**Educational:**
 - Teaching critical thinking and media literacy
-- Journalism and research fact-checking workflows
+- Training students to evaluate sources and identify fallacies
+- Demonstrating practical AI prompt engineering techniques
+
+**Technical/Development:**
+- Reference implementation for structured AI workflows
+- Example of documentation for multi-audience AI tools
+- Template for building verification systems with LLMs
 
 ## 🙏 Acknowledgments
 
