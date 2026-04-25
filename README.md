@@ -13,20 +13,6 @@ This skill provides a structured framework for fact-checking social media posts 
 - **Evaluating** ideological alignment of sources
 - **Reporting** findings in a clear, actionable format
 
-## 💡 Why This Matters for AI Development
-
-This project demonstrates several key competencies in AI development and prompt engineering:
-
-**Structured Prompt Engineering**: Shows how to design multi-step AI workflows with clear checkpoints, validation steps, and error handling. The methodology breaks down a complex task (fact-checking) into discrete, manageable steps that AI can execute consistently.
-
-**Multi-Step AI Workflows**: Demonstrates orchestrating AI through a complex process—claim identification → triage → evidence gathering → source analysis → fallacy detection → reporting—where each step builds on previous outputs.
-
-**Documentation Best Practices**: Provides multiple user paths (Claude Skills, copy-paste prompts, manual methodology) showing how to make AI tools accessible to different user segments with varying technical capabilities and subscription levels.
-
-**AI Safety & Limitations**: Explicitly addresses AI limitations, potential failures, and the need for human oversight—critical for production AI applications.
-
-**Real-World Application**: Tackles a genuine problem (misinformation) with practical constraints (paywalls, temporal limitations, unfalsifiable claims) rather than theoretical/toy examples.
-
 ## 🚀 How to Use
 
 ### Option 1: Claude Skills (Recommended - Requires Claude Pro)
